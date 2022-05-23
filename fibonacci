@@ -8,3 +8,10 @@ def fibonacci(n):
 
 nterms = int(input("How many terms?")
 
+# check if the number of terms is valid
+if nterms <= 0:
+   print("Plese enter a positive integer")
+else:
+   print("The Fibonacci Sequence:")
+   for i in range(nterms):
+       print(fibonacci(i))
