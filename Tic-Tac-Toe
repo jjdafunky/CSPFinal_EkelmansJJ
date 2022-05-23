@@ -1,1 +1,10 @@
-
+choose_size=int(input("Size of the board? "))
+def horizontal():
+  print(" --- " * choose_size)
+def vertical():
+  print("|  " * (choose_size +1))
+  
+  for index in range(choose_size):
+    horizontal()
+    vertical()
+  print horizontal()
