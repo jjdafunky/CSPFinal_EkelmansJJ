@@ -12,19 +12,19 @@ while True:
     dif = a - b
 
     if dif in [-1, 2]:
-        print("player one wins.")
+        print("Player One Wins.")
         if str(input("Do you want to play another game, yes or no?\n")) == "yes":
             continue
         else:
-            print("game over.")
+            print("Game Over.")
             break
     elif dif in [-2, 1]:
-        print("player two wins.")
+        print("Player Two Wins.")
         if str(input("Do you want to play another game, yes or no?\n")) == "yes":
             continue
         else:
-            print("game over.")
+            print("Game Over.")
             break
     else:
-        print("Draw.Please continue.")
+        print("Draw. Please try again.")
         print("")
