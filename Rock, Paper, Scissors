@@ -13,14 +13,14 @@ while True:
 
     if dif in [-1, 2]:
         print("Player One Wins.")
-        if str(input("Do you want to play another game, yes or no?\n")) == "yes":
+        if str(input("Do you want to play another game, Y or N?\n")) == "Y" or "yes":
             continue
         else:
             print("Game Over.")
             break
     elif dif in [-2, 1]:
         print("Player Two Wins.")
-        if str(input("Do you want to play another game, yes or no?\n")) == "yes":
+        if str(input("Do you want to play another game, Y or N?\n")) == "Y" or "yes":
             continue
         else:
             print("Game Over.")
